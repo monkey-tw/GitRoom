@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B2F552072A41AA2A003D3B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552062A41AA2A003D3B2D /* AppDelegate.swift */; };
-		B2F552092A41AA2A003D3B2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552082A41AA2A003D3B2D /* SceneDelegate.swift */; };
-		B2F5520B2A41AA2A003D3B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F5520A2A41AA2A003D3B2D /* ViewController.swift */; };
-		B2F5520E2A41AA2A003D3B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F5520C2A41AA2A003D3B2D /* Main.storyboard */; };
-		B2F552102A41AA2C003D3B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F5520F2A41AA2C003D3B2D /* Assets.xcassets */; };
-		B2F552132A41AA2C003D3B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F552112A41AA2C003D3B2D /* LaunchScreen.storyboard */; };
-		B2F5521E2A41AA2D003D3B2D /* roomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F5521D2A41AA2D003D3B2D /* roomTests.swift */; };
-		B2F552282A41AA2D003D3B2D /* roomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552272A41AA2D003D3B2D /* roomUITests.swift */; };
-		B2F5522A2A41AA2D003D3B2D /* roomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552292A41AA2D003D3B2D /* roomUITestsLaunchTests.swift */; };
+		B2F552432A41AAC9003D3B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552422A41AAC9003D3B2D /* AppDelegate.swift */; };
+		B2F552452A41AAC9003D3B2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552442A41AAC9003D3B2D /* SceneDelegate.swift */; };
+		B2F552472A41AAC9003D3B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552462A41AAC9003D3B2D /* ViewController.swift */; };
+		B2F5524A2A41AAC9003D3B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F552482A41AAC9003D3B2D /* Main.storyboard */; };
+		B2F5524C2A41AACB003D3B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F5524B2A41AACB003D3B2D /* Assets.xcassets */; };
+		B2F5524F2A41AACB003D3B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F5524D2A41AACB003D3B2D /* LaunchScreen.storyboard */; };
+		B2F5525A2A41AACB003D3B2D /* GitRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552592A41AACB003D3B2D /* GitRoomTests.swift */; };
+		B2F552642A41AACB003D3B2D /* GitRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552632A41AACB003D3B2D /* GitRoomUITests.swift */; };
+		B2F552662A41AACB003D3B2D /* GitRoomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F552652A41AACB003D3B2D /* GitRoomUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B2F5521A2A41AA2D003D3B2D /* PBXContainerItemProxy */ = {
+		B2F552562A41AACB003D3B2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B2F551FB2A41AA2A003D3B2D /* Project object */;
+			containerPortal = B2F552372A41AAC9003D3B2D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2F552022A41AA2A003D3B2D;
-			remoteInfo = room;
+			remoteGlobalIDString = B2F5523E2A41AAC9003D3B2D;
+			remoteInfo = GitRoom;
 		};
-		B2F552242A41AA2D003D3B2D /* PBXContainerItemProxy */ = {
+		B2F552602A41AACB003D3B2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B2F551FB2A41AA2A003D3B2D /* Project object */;
+			containerPortal = B2F552372A41AAC9003D3B2D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2F552022A41AA2A003D3B2D;
-			remoteInfo = room;
+			remoteGlobalIDString = B2F5523E2A41AAC9003D3B2D;
+			remoteInfo = GitRoom;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B2F552032A41AA2A003D3B2D /* room.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = room.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2F552062A41AA2A003D3B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2F552082A41AA2A003D3B2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2F5520A2A41AA2A003D3B2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2F5520D2A41AA2A003D3B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2F5520F2A41AA2C003D3B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2F552122A41AA2C003D3B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B2F552142A41AA2C003D3B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2F552192A41AA2D003D3B2D /* roomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2F5521D2A41AA2D003D3B2D /* roomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomTests.swift; sourceTree = "<group>"; };
-		B2F552232A41AA2D003D3B2D /* roomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2F552272A41AA2D003D3B2D /* roomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomUITests.swift; sourceTree = "<group>"; };
-		B2F552292A41AA2D003D3B2D /* roomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2F5523F2A41AAC9003D3B2D /* GitRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F552422A41AAC9003D3B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2F552442A41AAC9003D3B2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2F552462A41AAC9003D3B2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2F552492A41AAC9003D3B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F5524B2A41AACB003D3B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F5524E2A41AACB003D3B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2F552502A41AACB003D3B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F552552A41AACB003D3B2D /* GitRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F552592A41AACB003D3B2D /* GitRoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRoomTests.swift; sourceTree = "<group>"; };
+		B2F5525F2A41AACB003D3B2D /* GitRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F552632A41AACB003D3B2D /* GitRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRoomUITests.swift; sourceTree = "<group>"; };
+		B2F552652A41AACB003D3B2D /* GitRoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B2F552002A41AA2A003D3B2D /* Frameworks */ = {
+		B2F5523C2A41AAC9003D3B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2F552162A41AA2D003D3B2D /* Frameworks */ = {
+		B2F552522A41AACB003D3B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2F552202A41AA2D003D3B2D /* Frameworks */ = {
+		B2F5525C2A41AACB003D3B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B2F551FA2A41AA2A003D3B2D = {
+		B2F552362A41AAC9003D3B2D = {
 			isa = PBXGroup;
 			children = (
-				B2F552052A41AA2A003D3B2D /* room */,
-				B2F5521C2A41AA2D003D3B2D /* roomTests */,
-				B2F552262A41AA2D003D3B2D /* roomUITests */,
-				B2F552042A41AA2A003D3B2D /* Products */,
+				B2F552412A41AAC9003D3B2D /* GitRoom */,
+				B2F552582A41AACB003D3B2D /* GitRoomTests */,
+				B2F552622A41AACB003D3B2D /* GitRoomUITests */,
+				B2F552402A41AAC9003D3B2D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B2F552042A41AA2A003D3B2D /* Products */ = {
+		B2F552402A41AAC9003D3B2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2F552032A41AA2A003D3B2D /* room.app */,
-				B2F552192A41AA2D003D3B2D /* roomTests.xctest */,
-				B2F552232A41AA2D003D3B2D /* roomUITests.xctest */,
+				B2F5523F2A41AAC9003D3B2D /* GitRoom.app */,
+				B2F552552A41AACB003D3B2D /* GitRoomTests.xctest */,
+				B2F5525F2A41AACB003D3B2D /* GitRoomUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2F552052A41AA2A003D3B2D /* room */ = {
+		B2F552412A41AAC9003D3B2D /* GitRoom */ = {
 			isa = PBXGroup;
 			children = (
-				B2F552062A41AA2A003D3B2D /* AppDelegate.swift */,
-				B2F552082A41AA2A003D3B2D /* SceneDelegate.swift */,
-				B2F5520A2A41AA2A003D3B2D /* ViewController.swift */,
-				B2F5520C2A41AA2A003D3B2D /* Main.storyboard */,
-				B2F5520F2A41AA2C003D3B2D /* Assets.xcassets */,
-				B2F552112A41AA2C003D3B2D /* LaunchScreen.storyboard */,
-				B2F552142A41AA2C003D3B2D /* Info.plist */,
+				B2F552422A41AAC9003D3B2D /* AppDelegate.swift */,
+				B2F552442A41AAC9003D3B2D /* SceneDelegate.swift */,
+				B2F552462A41AAC9003D3B2D /* ViewController.swift */,
+				B2F552482A41AAC9003D3B2D /* Main.storyboard */,
+				B2F5524B2A41AACB003D3B2D /* Assets.xcassets */,
+				B2F5524D2A41AACB003D3B2D /* LaunchScreen.storyboard */,
+				B2F552502A41AACB003D3B2D /* Info.plist */,
 			);
-			path = room;
+			path = GitRoom;
 			sourceTree = "<group>";
 		};
-		B2F5521C2A41AA2D003D3B2D /* roomTests */ = {
+		B2F552582A41AACB003D3B2D /* GitRoomTests */ = {
 			isa = PBXGroup;
 			children = (
-				B2F5521D2A41AA2D003D3B2D /* roomTests.swift */,
+				B2F552592A41AACB003D3B2D /* GitRoomTests.swift */,
 			);
-			path = roomTests;
+			path = GitRoomTests;
 			sourceTree = "<group>";
 		};
-		B2F552262A41AA2D003D3B2D /* roomUITests */ = {
+		B2F552622A41AACB003D3B2D /* GitRoomUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B2F552272A41AA2D003D3B2D /* roomUITests.swift */,
-				B2F552292A41AA2D003D3B2D /* roomUITestsLaunchTests.swift */,
+				B2F552632A41AACB003D3B2D /* GitRoomUITests.swift */,
+				B2F552652A41AACB003D3B2D /* GitRoomUITestsLaunchTests.swift */,
 			);
-			path = roomUITests;
+			path = GitRoomUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2F552022A41AA2A003D3B2D /* room */ = {
+		B2F5523E2A41AAC9003D3B2D /* GitRoom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2F5522D2A41AA2D003D3B2D /* Build configuration list for PBXNativeTarget "room" */;
+			buildConfigurationList = B2F552692A41AACB003D3B2D /* Build configuration list for PBXNativeTarget "GitRoom" */;
 			buildPhases = (
-				B2F551FF2A41AA2A003D3B2D /* Sources */,
-				B2F552002A41AA2A003D3B2D /* Frameworks */,
-				B2F552012A41AA2A003D3B2D /* Resources */,
+				B2F5523B2A41AAC9003D3B2D /* Sources */,
+				B2F5523C2A41AAC9003D3B2D /* Frameworks */,
+				B2F5523D2A41AAC9003D3B2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = room;
-			productName = room;
-			productReference = B2F552032A41AA2A003D3B2D /* room.app */;
+			name = GitRoom;
+			productName = GitRoom;
+			productReference = B2F5523F2A41AAC9003D3B2D /* GitRoom.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B2F552182A41AA2D003D3B2D /* roomTests */ = {
+		B2F552542A41AACB003D3B2D /* GitRoomTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2F552302A41AA2D003D3B2D /* Build configuration list for PBXNativeTarget "roomTests" */;
+			buildConfigurationList = B2F5526C2A41AACB003D3B2D /* Build configuration list for PBXNativeTarget "GitRoomTests" */;
 			buildPhases = (
-				B2F552152A41AA2D003D3B2D /* Sources */,
-				B2F552162A41AA2D003D3B2D /* Frameworks */,
-				B2F552172A41AA2D003D3B2D /* Resources */,
+				B2F552512A41AACB003D3B2D /* Sources */,
+				B2F552522A41AACB003D3B2D /* Frameworks */,
+				B2F552532A41AACB003D3B2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B2F5521B2A41AA2D003D3B2D /* PBXTargetDependency */,
+				B2F552572A41AACB003D3B2D /* PBXTargetDependency */,
 			);
-			name = roomTests;
-			productName = roomTests;
-			productReference = B2F552192A41AA2D003D3B2D /* roomTests.xctest */;
+			name = GitRoomTests;
+			productName = GitRoomTests;
+			productReference = B2F552552A41AACB003D3B2D /* GitRoomTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B2F552222A41AA2D003D3B2D /* roomUITests */ = {
+		B2F5525E2A41AACB003D3B2D /* GitRoomUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2F552332A41AA2D003D3B2D /* Build configuration list for PBXNativeTarget "roomUITests" */;
+			buildConfigurationList = B2F5526F2A41AACB003D3B2D /* Build configuration list for PBXNativeTarget "GitRoomUITests" */;
 			buildPhases = (
-				B2F5521F2A41AA2D003D3B2D /* Sources */,
-				B2F552202A41AA2D003D3B2D /* Frameworks */,
-				B2F552212A41AA2D003D3B2D /* Resources */,
+				B2F5525B2A41AACB003D3B2D /* Sources */,
+				B2F5525C2A41AACB003D3B2D /* Frameworks */,
+				B2F5525D2A41AACB003D3B2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B2F552252A41AA2D003D3B2D /* PBXTargetDependency */,
+				B2F552612A41AACB003D3B2D /* PBXTargetDependency */,
 			);
-			name = roomUITests;
-			productName = roomUITests;
-			productReference = B2F552232A41AA2D003D3B2D /* roomUITests.xctest */;
+			name = GitRoomUITests;
+			productName = GitRoomUITests;
+			productReference = B2F5525F2A41AACB003D3B2D /* GitRoomUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B2F551FB2A41AA2A003D3B2D /* Project object */ = {
+		B2F552372A41AAC9003D3B2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					B2F552022A41AA2A003D3B2D = {
+					B2F5523E2A41AAC9003D3B2D = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					B2F552182A41AA2D003D3B2D = {
+					B2F552542A41AACB003D3B2D = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = B2F552022A41AA2A003D3B2D;
+						TestTargetID = B2F5523E2A41AAC9003D3B2D;
 					};
-					B2F552222A41AA2D003D3B2D = {
+					B2F5525E2A41AACB003D3B2D = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = B2F552022A41AA2A003D3B2D;
+						TestTargetID = B2F5523E2A41AAC9003D3B2D;
 					};
 				};
 			};
-			buildConfigurationList = B2F551FE2A41AA2A003D3B2D /* Build configuration list for PBXProject "room" */;
+			buildConfigurationList = B2F5523A2A41AAC9003D3B2D /* Build configuration list for PBXProject "GitRoom" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = B2F551FA2A41AA2A003D3B2D;
-			productRefGroup = B2F552042A41AA2A003D3B2D /* Products */;
+			mainGroup = B2F552362A41AAC9003D3B2D;
+			productRefGroup = B2F552402A41AAC9003D3B2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2F552022A41AA2A003D3B2D /* room */,
-				B2F552182A41AA2D003D3B2D /* roomTests */,
-				B2F552222A41AA2D003D3B2D /* roomUITests */,
+				B2F5523E2A41AAC9003D3B2D /* GitRoom */,
+				B2F552542A41AACB003D3B2D /* GitRoomTests */,
+				B2F5525E2A41AACB003D3B2D /* GitRoomUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B2F552012A41AA2A003D3B2D /* Resources */ = {
+		B2F5523D2A41AAC9003D3B2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F552132A41AA2C003D3B2D /* LaunchScreen.storyboard in Resources */,
-				B2F552102A41AA2C003D3B2D /* Assets.xcassets in Resources */,
-				B2F5520E2A41AA2A003D3B2D /* Main.storyboard in Resources */,
+				B2F5524F2A41AACB003D3B2D /* LaunchScreen.storyboard in Resources */,
+				B2F5524C2A41AACB003D3B2D /* Assets.xcassets in Resources */,
+				B2F5524A2A41AAC9003D3B2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2F552172A41AA2D003D3B2D /* Resources */ = {
+		B2F552532A41AACB003D3B2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2F552212A41AA2D003D3B2D /* Resources */ = {
+		B2F5525D2A41AACB003D3B2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B2F551FF2A41AA2A003D3B2D /* Sources */ = {
+		B2F5523B2A41AAC9003D3B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F5520B2A41AA2A003D3B2D /* ViewController.swift in Sources */,
-				B2F552072A41AA2A003D3B2D /* AppDelegate.swift in Sources */,
-				B2F552092A41AA2A003D3B2D /* SceneDelegate.swift in Sources */,
+				B2F552472A41AAC9003D3B2D /* ViewController.swift in Sources */,
+				B2F552432A41AAC9003D3B2D /* AppDelegate.swift in Sources */,
+				B2F552452A41AAC9003D3B2D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2F552152A41AA2D003D3B2D /* Sources */ = {
+		B2F552512A41AACB003D3B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F5521E2A41AA2D003D3B2D /* roomTests.swift in Sources */,
+				B2F5525A2A41AACB003D3B2D /* GitRoomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2F5521F2A41AA2D003D3B2D /* Sources */ = {
+		B2F5525B2A41AACB003D3B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F552282A41AA2D003D3B2D /* roomUITests.swift in Sources */,
-				B2F5522A2A41AA2D003D3B2D /* roomUITestsLaunchTests.swift in Sources */,
+				B2F552662A41AACB003D3B2D /* GitRoomUITestsLaunchTests.swift in Sources */,
+				B2F552642A41AACB003D3B2D /* GitRoomUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B2F5521B2A41AA2D003D3B2D /* PBXTargetDependency */ = {
+		B2F552572A41AACB003D3B2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2F552022A41AA2A003D3B2D /* room */;
-			targetProxy = B2F5521A2A41AA2D003D3B2D /* PBXContainerItemProxy */;
+			target = B2F5523E2A41AAC9003D3B2D /* GitRoom */;
+			targetProxy = B2F552562A41AACB003D3B2D /* PBXContainerItemProxy */;
 		};
-		B2F552252A41AA2D003D3B2D /* PBXTargetDependency */ = {
+		B2F552612A41AACB003D3B2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2F552022A41AA2A003D3B2D /* room */;
-			targetProxy = B2F552242A41AA2D003D3B2D /* PBXContainerItemProxy */;
+			target = B2F5523E2A41AAC9003D3B2D /* GitRoom */;
+			targetProxy = B2F552602A41AACB003D3B2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B2F5520C2A41AA2A003D3B2D /* Main.storyboard */ = {
+		B2F552482A41AAC9003D3B2D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B2F5520D2A41AA2A003D3B2D /* Base */,
+				B2F552492A41AAC9003D3B2D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B2F552112A41AA2C003D3B2D /* LaunchScreen.storyboard */ = {
+		B2F5524D2A41AACB003D3B2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B2F552122A41AA2C003D3B2D /* Base */,
+				B2F5524E2A41AACB003D3B2D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B2F5522B2A41AA2D003D3B2D /* Debug */ = {
+		B2F552672A41AACB003D3B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		B2F5522C2A41AA2D003D3B2D /* Release */ = {
+		B2F552682A41AACB003D3B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +430,7 @@
 			};
 			name = Release;
 		};
-		B2F5522E2A41AA2D003D3B2D /* Debug */ = {
+		B2F5526A2A41AACB003D3B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -438,7 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = room/Info.plist;
+				INFOPLIST_FILE = GitRoom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +449,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.room;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GitRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		B2F5522F2A41AA2D003D3B2D /* Release */ = {
+		B2F5526B2A41AACB003D3B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -465,7 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = room/Info.plist;
+				INFOPLIST_FILE = GitRoom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.room;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GitRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -484,7 +484,7 @@
 			};
 			name = Release;
 		};
-		B2F552312A41AA2D003D3B2D /* Debug */ = {
+		B2F5526D2A41AACB003D3B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,16 +494,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.roomTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GitRoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/room.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/room";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitRoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitRoom";
 			};
 			name = Debug;
 		};
-		B2F552322A41AA2D003D3B2D /* Release */ = {
+		B2F5526E2A41AACB003D3B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -513,16 +513,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.roomTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GitRoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/room.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/room";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitRoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitRoom";
 			};
 			name = Release;
 		};
-		B2F552342A41AA2D003D3B2D /* Debug */ = {
+		B2F552702A41AACB003D3B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,16 +530,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.roomUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GitRoomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = room;
+				TEST_TARGET_NAME = GitRoom;
 			};
 			name = Debug;
 		};
-		B2F552352A41AA2D003D3B2D /* Release */ = {
+		B2F552712A41AACB003D3B2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,55 +547,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.roomUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GitRoomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = room;
+				TEST_TARGET_NAME = GitRoom;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2F551FE2A41AA2A003D3B2D /* Build configuration list for PBXProject "room" */ = {
+		B2F5523A2A41AAC9003D3B2D /* Build configuration list for PBXProject "GitRoom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2F5522B2A41AA2D003D3B2D /* Debug */,
-				B2F5522C2A41AA2D003D3B2D /* Release */,
+				B2F552672A41AACB003D3B2D /* Debug */,
+				B2F552682A41AACB003D3B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2F5522D2A41AA2D003D3B2D /* Build configuration list for PBXNativeTarget "room" */ = {
+		B2F552692A41AACB003D3B2D /* Build configuration list for PBXNativeTarget "GitRoom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2F5522E2A41AA2D003D3B2D /* Debug */,
-				B2F5522F2A41AA2D003D3B2D /* Release */,
+				B2F5526A2A41AACB003D3B2D /* Debug */,
+				B2F5526B2A41AACB003D3B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2F552302A41AA2D003D3B2D /* Build configuration list for PBXNativeTarget "roomTests" */ = {
+		B2F5526C2A41AACB003D3B2D /* Build configuration list for PBXNativeTarget "GitRoomTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2F552312A41AA2D003D3B2D /* Debug */,
-				B2F552322A41AA2D003D3B2D /* Release */,
+				B2F5526D2A41AACB003D3B2D /* Debug */,
+				B2F5526E2A41AACB003D3B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2F552332A41AA2D003D3B2D /* Build configuration list for PBXNativeTarget "roomUITests" */ = {
+		B2F5526F2A41AACB003D3B2D /* Build configuration list for PBXNativeTarget "GitRoomUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2F552342A41AA2D003D3B2D /* Debug */,
-				B2F552352A41AA2D003D3B2D /* Release */,
+				B2F552702A41AACB003D3B2D /* Debug */,
+				B2F552712A41AACB003D3B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B2F551FB2A41AA2A003D3B2D /* Project object */;
+	rootObject = B2F552372A41AAC9003D3B2D /* Project object */;
 }

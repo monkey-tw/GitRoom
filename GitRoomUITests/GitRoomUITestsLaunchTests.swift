@@ -1,13 +1,13 @@
 //
-//  roomUITestsLaunchTests.swift
-//  roomUITests
+//  GitRoomUITestsLaunchTests.swift
+//  GitRoomUITests
 //
 //  Created by Jiaxin Pu on 2023/6/20.
 //
 
 import XCTest
 
-final class roomUITestsLaunchTests: XCTestCase {
+final class GitRoomUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

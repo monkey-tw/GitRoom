@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  room
+//  GitRoom
 //
 //  Created by Jiaxin Pu on 2023/6/20.
 //

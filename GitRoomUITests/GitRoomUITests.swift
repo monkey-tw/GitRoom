@@ -1,13 +1,13 @@
 //
-//  roomUITests.swift
-//  roomUITests
+//  GitRoomUITests.swift
+//  GitRoomUITests
 //
 //  Created by Jiaxin Pu on 2023/6/20.
 //
 
 import XCTest
 
-final class roomUITests: XCTestCase {
+final class GitRoomUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
