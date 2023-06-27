@@ -9,8 +9,11 @@ pipeline {
         }
 
         stage("clean") {
-            xcodebuild clean -project GitRoom -scheme GitRoom -configuration ${GITROOM_CONFIG}
-            echo "xcodebuild clean ${GITROOM_CONFIG} successfully"
+            steps {
+                xcodebuild clean -project GitRoom -scheme GitRoom -configuration ${GITROOM_CONFIG}
+                echo "xcodebuild clean ${GITROOM_CONFIG} successfully"
+            }
+            
         }
     }
 }
