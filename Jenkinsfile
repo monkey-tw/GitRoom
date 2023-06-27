@@ -1,20 +1,33 @@
 pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-
-        stage("clean") {
-            steps {
-                // xcodebuild clean -project GitRoom -scheme GitRoom -configuration ${GITROOM_CONFIG}
-                //echo "xcodebuild clean ${env.GITROOM_CONFIG} successfully 1"
-                //echo "xcodebuild clean ${GITROOM_CONFIG} successfully 2"
-                echo "clean ok"
-            } 
-        }
+  agent any
+  stages {
+    stage('Hello') {
+      steps {
+        echo 'Hello World'
+      }
     }
+
+    stage('clean') {
+      steps {
+        echo 'clean ok'
+      }
+    }
+
+    stage('post') {
+      steps {
+        sh 'echo "post"'
+      }
+    }
+
+    stage('deploy') {
+      steps {
+        sh 'echo "deploy"'
+      }
+    }
+
+  }
+  environment {
+    GITROOM_NAME = 'haha'
+    GITROOM_AGE = '33'
+  }
 }
