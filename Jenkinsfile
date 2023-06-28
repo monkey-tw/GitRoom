@@ -42,6 +42,7 @@ pipeline {
         stage("fastlane") {
             steps {
                 script {
+                    sh 'bundle install'
                     sh "bundle exec fastlane beta"
                 }
             }
