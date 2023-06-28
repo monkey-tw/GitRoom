@@ -14,7 +14,14 @@ pipeline {
                 echo "xcodebuild clean ${env.GITROOM_CONFIG} successfully 1"
                 echo "xcodebuild clean ${GITROOM_CONFIG} successfully 2"
             }
-            
+        }
+
+        stage("fastlane") {
+            steps {
+                script {
+                    fastlane beta
+                }
+            }
         }
     }
 }
