@@ -42,7 +42,8 @@ pipeline {
         stage("fastlane") {
             steps {
                 script {
-                    sh "bundle update --bundler"
+                    sh 'gem install bundler'
+                    sh "bundle install"
                     sh "bundle exec fastlane beta"
                 }
             }
