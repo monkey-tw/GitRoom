@@ -1,6 +1,13 @@
 pipeline {
     agent any
 
+    environment {
+        // Setup Ruby to PATH
+        RUBY_HOME = "/usr/local/opt/ruby"
+        PATH = "$RUBY_HOME/bin:$PATH"
+        LANG = "en_US.UTF-8"
+    }
+
     parameters {
         choice(
             description: 'choice test',
@@ -47,8 +54,8 @@ pipeline {
                     sh "which ruby"
                     sh "which gem"
                     // sh '/usr/local/opt/ruby/bin/gem install bundler'
-                    sh "/usr/local/opt/ruby/bin/bundle install"
-                    sh "/usr/local/opt/ruby/bin/bundle exec fastlane beta"
+                    sh "bundle install"
+                    sh "bundle exec fastlane beta"
                 }
             }
         }
