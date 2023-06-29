@@ -42,9 +42,9 @@ pipeline {
         stage("fastlane") {
             steps {
                 script {
-                    sh 'gem install bundler'
-                    sh "bundle install"
-                    sh "bundle exec fastlane beta"
+                    sh '/usr/local/opt/ruby/bin/gem install bundler'
+                    sh "/usr/local/opt/ruby/bin/bundle install"
+                    sh "/usr/local/opt/ruby/bin/bundle exec fastlane beta"
                 }
             }
         }
